@@ -46,8 +46,6 @@ def naming_system
  PORTION_2[:sub_category] = PORTION_3
  PORTION_3[:sub_category][:sub_category] = PORTION_4
  
-main_hash = {
- :key => PORTION_1
-
-}
+main_hash = {}
+main_hash[:key] => PORTION_1
 end
